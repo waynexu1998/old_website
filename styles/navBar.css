@@ -1,0 +1,91 @@
+.navBar1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+.links {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    padding: 15px 30px 15px 30px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #eae7dc;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.navDash {
+    width: 40px;
+    height: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: space-between;
+    transition: all .5s ease-in-out;
+    margin: 15px;
+    display: none;
+}
+
+.bar1 {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: all .5s ease-in-out
+}
+
+.bar2 {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: all .5s ease-in-out
+}
+
+.navDash.open .bar1 {
+    transform: rotate(45deg) translate(0px, 13px);
+}
+
+.navDash.open .bar2 {
+    transform: rotate(-45deg) translate(0px, -13px);
+}
+
+@media only screen and (max-width: 1024px) {
+    div.navDash {
+        display: flex;
+        float: right;
+    }
+
+    #links {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767) {
+    div.navDash {
+        display: flex;
+        float: right;
+    }
+
+    #links {
+        display: none;
+    }
+}
