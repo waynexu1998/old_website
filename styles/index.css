@@ -46,3 +46,95 @@ body {
     font-size: 16px;
     margin: 0 0 0 0;
 }
+
+p {
+    color: #f2f4f3;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    max-width: 450px;
+}
+.about_me {
+    max-width: 1280px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.person {
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.me_intro {
+    width: 50%;
+    display: flex;
+}
+
+h1 {
+    font-family: manrope;
+    font-weight: 700;
+    font-size: 80px;
+    margin: 0 auto;
+    text-align: left;
+    -webkit-text-stroke: 2px #a9927d;
+    color: none;
+}
+
+.introtext {
+    margin: auto 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .about_me {
+        flex-direction: column;
+    }
+    .me_intro {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .introtext {
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        max-width: none;
+    }
+
+    .person {
+        height: 700px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .about_me {
+        flex-direction: column;
+    }
+    .me_intro {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .introtext {
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 13px;
+        max-width: none;
+    }
+
+    .person {
+        height: 500px;
+    }
+}

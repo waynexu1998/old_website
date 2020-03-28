@@ -5,14 +5,20 @@
     flex-direction: row;
     margin: 0 auto 0 auto;
     font-size: 16px;
-    max-width: 1280px;
+    max-width: 2500px;
+    height: 100px;
 }
 
 .links {
     list-style-type: none;
     overflow: hidden;
-    margin: 0;
+    margin: auto 0 auto 0;
     padding: 0;
+
+}
+
+.linkDiv {
+    margin: auto 0 auto 0;
 }
 
 li {
@@ -23,8 +29,8 @@ li {
 
 a {
     text-decoration: none;
-    font-size: 13px;
-    color: #eae7dc;
+    font-size: 15px;
+    color: #f2f4f3;
     font-weight: 500;
     letter-spacing: 2px;
 }
