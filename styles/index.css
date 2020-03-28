@@ -50,8 +50,9 @@ body {
 p {
     color: #f2f4f3;
     font-size: 20px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     max-width: 450px;
+    line-height: 27px;
 }
 .about_me {
     max-width: 1280px;
@@ -117,7 +118,7 @@ h1 {
         flex-direction: column;
     }
     .me_intro {
-        margin: 0 auto;
+        margin: 20px auto;
         width: 85%;
     }
 
@@ -130,11 +131,11 @@ h1 {
     }
 
     p {
-        font-size: 13px;
+        font-size: 20px;
         max-width: none;
     }
 
     .person {
-        height: 500px;
+        height: 400px;
     }
 }
