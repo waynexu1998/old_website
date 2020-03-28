@@ -1,10 +1,12 @@
 .navBar1 {
+    position: relative;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     font-size: 16px;
+    max-width: 1280px;
 }
 
 .links {
@@ -28,7 +30,7 @@ a {
     letter-spacing: 2px;
 }
 
-h1 {
+h1 {    
     margin: 0;
 }
 
@@ -39,7 +41,7 @@ h1 {
     cursor: pointer;
     justify-content: space-between;
     transition: all .5s ease-in-out;
-    margin: 15px;
+    margin: 15px 30px 15px 30px;
     display: none;
 }
 
