@@ -47,7 +47,7 @@ body {
     margin: 0 0 0 0;
 }
 
-body:after {
+body::after {
     animation: grain 8s steps(10) infinite;
     background-image: url("../static/grain.png");
     content: "";
