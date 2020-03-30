@@ -86,28 +86,6 @@ p {
     justify-content: space-between; 
 }
 
-#background {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-}
-
-#background_left {
-    width: 50%;
-    height: 100%;
-
-}
-
-#background_right {
-    width: 50%;
-    height: 100%;
-    background-color: #A9927D;
-}
-
 .person {
     height: 900px;
     margin: 0 auto;
@@ -124,11 +102,11 @@ h1 {
     font-size: 80px;
     margin: 0 auto;
     text-align: left;
-    color: #f7dba7;
+    color: #f1ab86;
 }
 
 .introtext {
-    margin: auto auto;
+    margin: auto 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -153,6 +131,13 @@ h1 {
     .person {
         height: 700px;
     }
+
+    #divider {
+        transform: none;
+        width: 80%;
+        height: 1px;
+        margin: 40px auto;
+    }
     
 }
 
@@ -173,5 +158,9 @@ h1 {
 
     .person {
         height: 400px;
+    }
+
+    #divider {
+        margin: 15px auto;
     }
 }
