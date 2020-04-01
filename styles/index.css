@@ -42,7 +42,7 @@
 
 body {
     font-family: manrope;
-    background-color: black;
+    background-color: #a9927d;
     font-size: 16px;
     margin: 0 0 0 0;
 }
@@ -69,98 +69,10 @@ body:after {
     90% {transform: translate(-1%,7%);}
   }
 
-p {
-    color: #f2f4f3;
-    font-size: 18px;
-    letter-spacing: 1px;
-    max-width: 450px;
-    line-height: 27px;
-    font-weight: 400;
-}
-
-.about_me {
-    max-width: 1280px;
-    margin: 150px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-}
-
-.person {
-    height: 900px;
-    margin: 0 auto;
-}
-
-.me_intro {
-    width: 50%;
-    display: flex;
-}
-
-h1 {
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-    font-size: 80px;
-    margin: 0 auto;
-    text-align: left;
-    color: #f1ab86;
-}
-
-.introtext {
-    margin: auto 0;
-}
-
 @media only screen and (max-width: 1024px) {
-    .about_me {
-        flex-direction: column;
-        margin: 100px auto;
-    }
-    .me_intro {
-        margin: 20px auto;
-        width: 70%;
-    }
-
-    h1 {
-        font-size: 50px;
-    }
-
-    p {
-        max-width: none;
-        font-size: 16px;
-    }
-
-    .person {
-        height: 700px;
-    }
-
-    #divider {
-        transform: none;
-        width: 80%;
-        height: 1px;
-        margin: 40px auto;
-    }
     
 }
 
 @media only screen and (max-width: 500px) {
-    .about_me {
-        flex-direction: column;
-        margin: 50px auto;
-    }
-    .me_intro {
-        margin: 20px auto;
-        width: 75%;
-    }
-
-    p {
-        max-width: none;
-        font-size: 14px;
-    }
-
-    .person {
-        height: 400px;
-    }
-
-    #divider {
-        margin: 15px auto;
-    }
+    
 }
