@@ -60,6 +60,36 @@ body:after {
     pointer-events: none;
 }
 
+h1 {
+    font-weight: 700;
+}
+
+.giant_title {
+    font-family: manrope;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin: 0 200px;
+    color: #f7ede2;
+}
+
+.giant_title2 {
+    font-family: manrope;
+    font-size: 100px;
+    letter-spacing: 1px;
+    margin: 0 200px;
+    text-align: right;
+    color: #f7ede2;
+}
+
+.giant_title3 {
+    font-family: manrope;
+    font-size: 100px;
+    letter-spacing: 1px;
+    margin: 0 200px;
+    text-align: right;
+    color: #f7ede2;
+}
+
 @keyframes grain {
     0%, 100% {transform: translate(0,0);}
     10% {transform: translate(-5%,-10%);}
@@ -67,7 +97,7 @@ body:after {
     50% {transform: translate(12%,9%);}
     70% {transform: translate(9%,4%);}
     90% {transform: translate(-1%,7%);}
-  }
+}
 
 @media only screen and (max-width: 1024px) {
     
