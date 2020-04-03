@@ -45,6 +45,7 @@ body {
     background-color: #a9927d;
     font-size: 16px;
     margin: 0 0 0 0;
+    color: #f7ede2;
 }
 
 body:after {
@@ -62,32 +63,28 @@ body:after {
 
 h1 {
     font-weight: 700;
-}
-
-.giant_title {
-    font-family: manrope;
-    font-size: 50px;
-    letter-spacing: 1px;
-    margin: 0 200px;
-    color: #f7ede2;
-}
-
-.giant_title2 {
-    font-family: manrope;
     font-size: 100px;
-    letter-spacing: 1px;
-    margin: 0 200px;
-    text-align: right;
-    color: #f7ede2;
 }
 
-.giant_title3 {
-    font-family: manrope;
-    font-size: 100px;
-    letter-spacing: 1px;
-    margin: 0 200px;
-    text-align: right;
-    color: #f7ede2;
+.outer_wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.ME {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftDiv {
+    margin: 100px;  
+}
+
+.jobs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 @keyframes grain {
