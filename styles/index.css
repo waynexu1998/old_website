@@ -18,6 +18,10 @@ body:after {
     pointer-events: none;
 }
 
+h1 {    
+    margin: 0;
+}
+
 .title_wrapper {
     justify-content: center;
     display: flex;
@@ -27,13 +31,13 @@ body:after {
 }
 
 .giant_title {
-    font-size: 100px;
+    font-size: 65px;
     color: #ff6f61;
     text-align: right;
 }
 
 .giant_title2 {
-    font-size: 100px;
+    font-size: 65px;
     color: #0f4c81;
     text-align: right;
 }
