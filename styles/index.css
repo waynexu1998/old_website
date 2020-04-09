@@ -1,52 +1,6 @@
-@font-face {
-    font-family: "manrope";
-    src: url("../fonts/Manrope-Regular.woff2") format('woff2');
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: "manrope";
-    src: url("../fonts/Manrope-SemiBold.woff2") format('woff2');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "manrope";
-    src: url("../fonts/Manrope-Medium.woff2") format('woff2');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "manrope";
-    src: url("../fonts/Manrope-Light.woff2") format('woff2');
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: "manrope";
-    src: url("../fonts/Manrope-ExtraLight.woff2") format('woff2');
-    font-weight: 100;
-}
-
-@font-face {
-    font-family: "manrope";
-    src: url("../fonts/Manrope-ExtraBold.woff2") format('woff2');
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: "manrope";
-    src: url("../fonts/Manrope-Bold.woff2") format('woff2');
-    font-weight: 600;
-}
-
-span {
-    margin: 0;
-}
-
 body {
-    font-family: "manrope";
-    background-color: #eae7dc;
+    font-family: usual;
+    background-color: #ffffff;
     font-size: 13px;
     margin: 0 0 0 0;
 }
@@ -57,11 +11,52 @@ body:after {
     content: "";
     height: 300%;
     left: -50%;
-    opacity: 0.3;
+    opacity: 0.25;
     position: fixed;
     top: -100%;
     width:300%;
     pointer-events: none;
+}
+
+.title_wrapper {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    max-width: 50%;
+}
+
+.giant_title {
+    font-size: 100px;
+    color: #ff6f61;
+    text-align: right;
+}
+
+.giant_title2 {
+    font-size: 100px;
+    color: #0f4c81;
+    text-align: right;
+}
+
+.ME {
+    max-width: 1400px;
+    margin: 100px auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.editor {
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+
+.jobs {
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: right;
 }
 
 @keyframes grain {
@@ -74,72 +69,10 @@ body:after {
 }
 
 @media only screen and (max-width: 1400px) {
-    h1 {
-        font-size: 100px;
-        text-align: center;
-    }
-
-    h2 {
-        font-size: 13px;
-    }
-
-    .arrow {
-        font-size: 100px;
-        color: #f6bd60;
-    }
-
-    .outer_wrapper {
-        margin: 50px;
-    }
-
-    .jobs {
-        margin-left: 100px;
-    }
-
-    .jobs_wrapper {
-        display: flex;
-        justify-content: center;
-        margin-left: 20px;
-    }
 }
 
 @media only screen and (max-width: 790px) {
-    h1 {
-        font-size: 70px;
-        text-align: left;
-    }
-
-    h2 {
-        text-align: right;
-    }
-
-    .jobs_tag {
-        text-align: left;
-    }
-
-    .arrow {
-        font-size: 50px;
-        color: #f6bd60;
-    }
-
-    .jobs {
-        margin-left: 0px;
-        margin-right: 0;
-    }
-
-    .jobs_wrapper {
-        flex-direction: column;
-        margin-left: 0;
-    }
-
 }
 
 @media only screen and (max-width: 535px) {
-    h1 {
-        font-size: 42px;
-    }
-
-    .arrow {
-        font-size: 40px;
-    }
 }
