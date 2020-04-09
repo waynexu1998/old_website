@@ -23,38 +23,34 @@ h1 {
 }
 
 .title_wrapper {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
     margin: 50px;
-    max-width: 50%;
 }
 
 .giant_title {
-    font-size: 65px;
+    font-size: 90px;
     color: #ff6f61;
-    text-align: right;
+    text-align: center;
 }
 
 .giant_title2 {
-    font-size: 65px;
+    font-size: 85px;
     color: #0f4c81;
-    text-align: right;
+    text-align: center;
 }
 
-.ME {
+.HERO {
     max-width: 1400px;
-    margin: 100px auto;
+    margin: 0 auto;
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    height: 91vh;
+    overflow: hidden;
 }
 
 .editor {
-    float: right;
-    width: 50%;
-    height: 50%;
+    margin: 0 auto;
 }
 
 .jobs {
@@ -72,11 +68,8 @@ h1 {
     90% {transform: translate(-1%,7%);}
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1024px) {
 }
 
-@media only screen and (max-width: 790px) {
-}
-
-@media only screen and (max-width: 535px) {
+@media only screen and (max-width: 767px) {
 }
