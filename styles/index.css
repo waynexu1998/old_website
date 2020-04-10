@@ -63,27 +63,44 @@ h1 {
     color: #ff6f61;
     text-align: center;
     line-height: 1em;
+    letter-spacing: -1px;
 }
 
 .giant_title2 {
     margin-top: 20px;
     font-size: 32px;
     text-align: center;
-    letter-spacing: normal;
 }
 
 .HERO {
-    max-width: 1400px;
     margin: 0 auto;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 100px;
+    overflow: visible   ;
+}
+
+#Layer_1 {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    bottom: 0px;
+    width: 100vw;
+    box-sizing: inherit;
+}
+
+.divider2 {
+    position: absolute;
+    z-index: -2;
+    display: block;
+    bottom: 180px;
+    width: 100vw;
+    box-sizing: inherit;
 }
 
 .ME {
-    background-color: #0f4c81;
 }
 
 .zdog-canvas {
@@ -97,7 +114,7 @@ h1 {
 }
 
 .editor {
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 @keyframes grain {
