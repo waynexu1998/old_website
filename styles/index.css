@@ -27,13 +27,14 @@ h1 {
 }
 
 .giant_title {
-    font-size: 90px;
+    margin-top: 50px;
+    font-size: 110px;
     color: #ff6f61;
     text-align: center;
 }
 
 .giant_title2 {
-    font-size: 85px;
+    font-size: 100px;
     color: #0f4c81;
     text-align: center;
 }
@@ -45,12 +46,39 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 91vh;
-    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.ME {
+    background-color: #0f4c81;
+}
+
+.zdog-canvas {
+    margin: 100px auto;
+}
+
+.content_wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.image_wrapper {
+    justify-content: center;
+    display: flex;
+    transform: translate(-100px,0);
 }
 
 .editor {
     margin: 0 auto;
+}
+
+.iphone {
+    width: 500px;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    transform: translate(30px,90px);
 }
 
 .jobs {
