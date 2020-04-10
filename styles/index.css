@@ -1,5 +1,35 @@
+@font-face {
+    font-family: "space";
+    src: url("../fonts/SpaceGrotesk-Light.woff2") format('woff2');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "space";
+    src: url("../fonts/SpaceGrotesk-Regular.woff2") format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "space";
+    src: url("../fonts/SpaceGrotesk-Medium.woff2") format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "space";
+    src: url("../fonts/SpaceGrotesk-SemiBold.woff2") format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "space";
+    src: url("../fonts/SpaceGrotesk-Bold.woff2") format('woff2');
+    font-weight: 600;
+}
+
 body {
-    font-family: usual;
+    font-family: 'space';
     background-color: #ffffff;
     font-size: 13px;
     margin: 0 0 0 0;
@@ -31,12 +61,14 @@ h1 {
     font-size: 110px;
     color: #ff6f61;
     text-align: center;
+    line-height: 1em;
 }
 
 .giant_title2 {
-    font-size: 100px;
-    color: #0f4c81;
+    margin-top: 20px;
+    font-size: 30px;
     text-align: center;
+    font-weight: 500;
 }
 
 .HERO {
@@ -63,22 +95,8 @@ h1 {
     display: flex;
 }
 
-.image_wrapper {
-    justify-content: center;
-    display: flex;
-    transform: translate(-100px,0);
-}
-
 .editor {
-    margin: 0 auto;
-}
-
-.iphone {
-    width: 500px;
-    position: absolute;
-    right: 0;
-    bottom: -10px;
-    transform: translate(30px,90px);
+    margin: 30px auto;
 }
 
 .jobs {
