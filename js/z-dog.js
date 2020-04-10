@@ -17,7 +17,7 @@ const illo = new Zdog.Illustration({
 var head = new Zdog.Shape({
   addTo: illo,
   stroke: 12,
-  color: gold,
+  color: '#ff6f61',
 });
 
 var eye = new Zdog.Ellipse({
@@ -26,7 +26,7 @@ var eye = new Zdog.Ellipse({
   quarters: 2,
   translate: { x: -2, y: 1, z: 4.5 },
   rotate: { z: -TAU/4 },
-  color: eggplant,
+  color: '#0f4c81',
   stroke: 0.5,
   backface: false,
 });
