@@ -79,7 +79,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 100px;
-    overflow: visible   ;
+    overflow: visible;
 }
 
 .divider {
@@ -135,6 +135,17 @@ h1 {
     }
     .editor {
         width: 60%;
+    }
+    .divider {
+        width: 120vw;
+        margin: 0 auto;
+    }
+    .divider2 {
+        width: 120vw;
+        margin: 0 auto;
+    }
+    .HERO {
+        overflow: hidden;
     }
 }
 
