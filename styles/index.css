@@ -104,7 +104,7 @@ h1 {
 }
 
 .zdog-canvas {
-    margin: 100px auto;
+    margin: 20px auto;
 }
 
 .content_wrapper {
@@ -127,7 +127,28 @@ h1 {
 }
 
 @media only screen and (max-width: 1024px) {
+    .giant_title {
+        font-size: 74px;
+    }
+    .giant_title2 {
+        font-size: 21px;
+    }
+    .editor {
+        width: 60%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+    .giant_title {
+        font-size: 40px;
+    }
+    .giant_title2 {
+        font-size: 15px;
+    }
+    .title_wrapper {
+        margin: 20px 0;
+    }
+    .editor {
+        width: 70%;
+    }
 }
