@@ -34,6 +34,7 @@ body {
     font-size: 13px;
     margin: 0 0 0 0;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
 body:after {
@@ -85,18 +86,14 @@ h1 {
 .divider {
     position: absolute;
     z-index: -2;
-    display: block;
     bottom: 0px;
     width: 100vw;
-    box-sizing: inherit;
 }
 
 .divider2 {
     position: absolute;
     z-index: -1;
-    display: block;
     width: 100vw;
-    box-sizing: inherit;
     bottom: 0px;
 }
 
@@ -115,6 +112,7 @@ h1 {
 
 .editor {
     margin: 20px auto;
+    width: 840px;
 }
 
 @keyframes grain {
@@ -147,6 +145,7 @@ h1 {
     .HERO {
         overflow: hidden;
     }
+    
 }
 
 @media only screen and (max-width: 767px) {
