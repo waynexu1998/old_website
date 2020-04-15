@@ -40,7 +40,7 @@ timeline.from('.editor', {
     opacity: 0,
     ease: 'power4.in'
 },
-'-=0.2')
+'-=0.4')
 
 // hero fade out
 const timeline2 = gsap.timeline({
@@ -61,7 +61,7 @@ timeline2.to('.divider2', {
 timeline2.to('.editor', {
     y: -1000,
     opacity:0,
-    duration:1.6,
+    duration:1,
     ease: 'power4.out'
 },'-=1.6')
 timeline2.to('.title_wrapper', {
