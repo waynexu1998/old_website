@@ -40,35 +40,18 @@ timeline.from('.editor', {
     opacity: 0,
     ease: 'power4.in'
 },
-'-=0.4')
+'-=1')
 
 // hero fade out
 const timeline2 = gsap.timeline({
     paused: true
 })
 
-timeline2.to('.divider', {
+timeline2.to('.HERO', {
     opacity:0,
     duration: 1.6,
     ease: 'power4.out'
 })
-timeline2.to('.divider2', {
-    opacity:0,
-    duration: 1.6,
-    ease: 'power4.out'
-},
-'-=1.6')
-timeline2.to('.editor', {
-    y: -1000,
-    opacity:0,
-    duration:1,
-    ease: 'power4.out'
-},'-=1.6')
-timeline2.to('.title_wrapper', {
-    opacity:0,
-    duration:1.6,
-    ease: 'power4.out'
-},'-=1.6')
 
 const controller = new ScrollMagic.Controller()
 const scene = new ScrollMagic.Scene({

@@ -105,56 +105,12 @@ h3 {
     bottom: 0px;
 }
 
-.zdog-canvas {
-    margin: 20px auto;
-}
-
-.content_wrapper {
-    width: 50%;    
-}
-
 .editor {
     margin: 20px auto;
     width: 840px;
 }
 
-.ME {
-    max-width: 1400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 100px auto;
-}
 
-.about_me {
-    font-size: 110px;
-    color: #ff6f61;
-    text-align: left;
-    line-height: 1em;
-    letter-spacing: -1px;
-}
-
-.content_wrapper p {
-    font-size: 21px;
-    line-height: 24px;
-    margin: 50px 0;
-    word-break: break-all;
-    font-weight: 300;
-}
-
-.skills {
-    text-align: left;
-    font-size: 30px;
-    margin: 0 0 10px 0;
-}
-
-.skills_set {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 50%;
-    margin-right: 50px;
-}
 
 @keyframes grain {
     0%, 100% {transform: translate(0,0);}
@@ -165,7 +121,7 @@ h3 {
     90% {transform: translate(-1%,7%);}
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1400px) {
     .giant_title {
         font-size: 74px;
     }
@@ -173,7 +129,7 @@ h3 {
         font-size: 21px;
     }
     .editor {
-        width: 60%;
+        width: 50%;
     }
     .divider {
         width: 120vw;
@@ -187,6 +143,12 @@ h3 {
         overflow: hidden;
     }
     
+}
+
+@media only screen and (max-width: 1024px) {
+    .editor {
+        width: 60%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
