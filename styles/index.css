@@ -51,6 +51,10 @@ body:after {
 
 h1 {    
     margin: 0;
+    font-size: 110px;
+    line-height: 1em;
+    letter-spacing: -1px;
+    color: #ff6f61;
 }
 
 h3 {
@@ -79,6 +83,8 @@ h3 {
     margin-top: 20px;
     font-size: 32px;
     text-align: center;
+    color: black;
+    font-weight: 400;
 }
 
 .HERO {
@@ -87,7 +93,6 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 100px;
     overflow: visible;
 }
 
@@ -110,6 +115,30 @@ h3 {
     width: 840px;
 }
 
+.ME {
+    max-width: 1400px;
+    margin: 100px auto;
+}
+
+.perf_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.perf {
+    max-width: 60%;
+}
+
+.perf h1 {
+    font-size: 55px;
+    margin: 5px 0 5 px 0;
+}
+
+.perf p {
+    font-size: 20px;
+    line-height: 22px;
+}
 
 
 @keyframes grain {

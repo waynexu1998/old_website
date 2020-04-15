@@ -19,26 +19,27 @@ const timeline = gsap.timeline()
 
 timeline.from('.giant_title', {
     y: '100%',
-    duration: 1,
+    duration: 1.5,
     opacity: 0,
-    ease: 'power4.in'
+    ease: 'expo.out'
 })
 
 timeline.from('.giant_title2', {
     opacity: 0,
-    duration: 0.5
-})
+    duration: 0.5,
+},
+'-=0.5')
 
 timeline.from('.navigation', {
     opacity: 0,
-    duration:0.5
+    duration:0.5,
 },
 '-=0.5')
 
 timeline.from('.editor', {
-    duration: 0.3,
+    duration: 1,
     opacity: 0,
-    ease: 'power4.in'
+    ease: 'expo.out'
 },
 '-=1')
 
