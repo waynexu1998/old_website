@@ -31,7 +31,6 @@
 body {
     font-family: 'space';
     background-color: #ffffff;
-    font-size: 13px;
     margin: 0 0 0 0;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
@@ -52,6 +51,10 @@ body:after {
 
 h1 {    
     margin: 0;
+}
+
+h3 {
+    font-weight: 300;
 }
 
 .t1_wrapper {
@@ -107,9 +110,7 @@ h1 {
 }
 
 .content_wrapper {
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
+    width: 50%;    
 }
 
 .editor {
@@ -118,7 +119,41 @@ h1 {
 }
 
 .ME {
-    background-color: #A6C6C1;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+.about_me {
+    font-size: 110px;
+    color: #ff6f61;
+    text-align: left;
+    line-height: 1em;
+    letter-spacing: -1px;
+}
+
+.content_wrapper p {
+    font-size: 21px;
+    line-height: 24px;
+    margin: 50px 0;
+    word-break: break-all;
+    font-weight: 300;
+}
+
+.skills {
+    text-align: left;
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.skills_set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 50px;
 }
 
 @keyframes grain {
