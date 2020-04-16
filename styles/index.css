@@ -132,13 +132,24 @@ h3 {
 
 .perf h1 {
     font-size: 55px;
-    margin: 5px 0 5 px 0;
+    margin: 5px 0 5px 0;
 }
 
 .perf p {
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 22px;
+    line-height: 26px;
+    max-width: 80%;
 }
+
+.perf_image {
+    width: 40%;
+    display: flex;
+}
+
+.image_fast {
+    width: 100%;
+}
+
 
 
 @keyframes grain {
@@ -171,12 +182,36 @@ h3 {
     .HERO {
         overflow: hidden;
     }
-    
+    .perf_wrapper {
+        flex-direction: column;
+    }
+    .perf {
+        margin: 50px auto;
+    }
+    .perf p {
+        max-width: none;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .perf_image {
+        width:  60%;
+        margin: 0 auto;
+    }
+    .image_fast {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .perf h1 {
+        font-size: 40px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
     .editor {
         width: 60%;
+    }
+    .perf {
+        max-width: 70%;
     }
 }
 
@@ -192,5 +227,15 @@ h3 {
     }
     .editor {
         width: 70%;
+    }
+    .perf {
+        max-width: 80%;
+    }
+    .perf h1 {
+        font-size: 25px;
+    }
+    .perf p {
+        font-size: 16px;
+        line-height: 20px;
     }
 }
