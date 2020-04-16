@@ -200,6 +200,7 @@ h3 {
     }
     .image_fast {
         width: 50%;
+        height: 50%;
         margin: 0 auto;
     }
     .perf h1 {
