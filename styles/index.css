@@ -142,12 +142,13 @@ h3 {
 }
 
 .perf_image {
-    width: 40%;
+    width: 50%;
     display: flex;
 }
 
 .image_fast {
     width: 100%;
+    transform: translateX(-20px);
 }
 
 
@@ -204,6 +205,10 @@ h3 {
     .perf h1 {
         font-size: 40px;
     }
+    .ME {
+        margin: 50px auto;
+    }
+    
 }
 
 @media only screen and (max-width: 1024px) {
@@ -238,4 +243,8 @@ h3 {
         font-size: 16px;
         line-height: 20px;
     }
+    .ME {
+        margin: 20px auto;
+    }
+    
 }
