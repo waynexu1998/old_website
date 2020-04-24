@@ -180,12 +180,23 @@ h3 {
 .tool_grid{
     display: grid;
     width: 40%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto; 
+    column-gap: 10px;
+    row-gap: 15px;
+    justify-items: center;
+}
+
+.icons {
+    width: 125px;
+    height: 125px;
+    place-self: center;
 }
 
 .tool p {
     font-size: 22px;
     line-height: 26px;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 @keyframes grain {
@@ -221,10 +232,14 @@ h3 {
     .perf_wrapper {
         flex-direction: column;
     }
-    .perf {
-        margin: 50px auto;
+    .tool_wrapper {
+        flex-direction: column-reverse;
     }
-    .perf p {
+    .perf, .tool {
+        margin: 50px auto;
+        max-width: 60%;
+    }
+    .perf p, .tool p {
         max-width: none;
         font-size: 18px;
         line-height: 22px;
@@ -242,7 +257,10 @@ h3 {
         height: 50%;
         margin: 0 auto;
     }
-    .perf h1 {
+    .tool_grid {
+        margin: 0 auto;
+    }
+    .perf h1, .tool h1 {
         font-size: 40px;
     }
     .ME {
@@ -255,8 +273,12 @@ h3 {
     .editor {
         width: 60%;
     }
-    .perf {
+    .perf, .tool {
         max-width: 70%;
+    }
+    .icons {
+        width: 100px;
+        height: 100px;
     }
 }
 
@@ -270,16 +292,20 @@ h3 {
     .title_wrapper {
         margin: 20px 0;
     }
+    .perf_wrapper, .tool_wrapper {
+        margin-bottom: 50px;
+    }
+
     .editor {
         width: 70%;
     }
-    .perf {
+    .perf, .tool {
         max-width: 80%;
     }
-    .perf h1 {
+    .perf h1, .tool h1 {
         font-size: 25px;
     }
-    .perf p {
+    .perf p, .tool p {
         font-size: 16px;
         line-height: 20px;
     }
@@ -290,5 +316,11 @@ h3 {
     .ME {
         margin: 20px auto;
     }
-    
+    .tool_grid {
+        width: 80%;
+    }
+    .icons {
+        width: 80px;
+        height: 80px;
+    }
 }
