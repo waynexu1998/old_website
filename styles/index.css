@@ -156,6 +156,7 @@ h3 {
 
 .image_fast {
     width: 80%;
+    height: 80%;
     transform: translateX(-20px);
     transform: scaleX(-1);
 }
