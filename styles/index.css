@@ -155,7 +155,7 @@ h3 {
 }
 
 .image_fast {
-    width: 100%;
+    width: 80%;
     transform: translateX(-20px);
     transform: scaleX(-1);
 }
@@ -293,7 +293,7 @@ h3 {
         margin: 20px 0;
     }
     .perf_wrapper, .tool_wrapper {
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
 
     .editor {
@@ -320,7 +320,7 @@ h3 {
         width: 80%;
     }
     .icons {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
     }
 }
