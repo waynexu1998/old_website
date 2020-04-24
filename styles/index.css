@@ -124,6 +124,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .perf {
@@ -146,12 +147,46 @@ h3 {
     display: flex;
 }
 
+.perf_link {
+    letter-spacing: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
 .image_fast {
     width: 100%;
     transform: translateX(-20px);
+    transform: scaleX(-1);
 }
 
+.tool_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
 
+.tool {
+    max-width: 50%;
+    justify-content: end;
+}
+
+.tool h1 {
+    font-size: 55px;
+    margin: 5px 0 5px 0;
+}
+
+.tool_grid{
+    display: grid;
+    width: 40%;
+}
+
+.tool p {
+    font-size: 22px;
+    line-height: 26px;
+    max-width: 80%;
+}
 
 @keyframes grain {
     0%, 100% {transform: translate(0,0);}
@@ -193,6 +228,10 @@ h3 {
         max-width: none;
         font-size: 18px;
         line-height: 22px;
+    }
+    .perf_link {
+        font-size: 20px;
+        line-height: 24px;
     }
     .perf_image {
         width:  60%;
@@ -243,6 +282,10 @@ h3 {
     .perf p {
         font-size: 16px;
         line-height: 20px;
+    }
+    .perf_link {
+        font-size: 18px;
+        line-height: 22px;
     }
     .ME {
         margin: 20px auto;
