@@ -61,7 +61,7 @@ h3 {
     font-weight: 300;
 }
 
-.t1_wrapper, .perf_t1_wrapper, .perf_t2_wrapper, .link_wrapper {
+.t1_wrapper, .perf_t1_wrapper, .perf_t2_wrapper, .link_wrapper, .tool_t1_wrapper, .tool_t2_wrapper {
     overflow: hidden;
 }   
 
@@ -151,6 +151,14 @@ h3 {
 }
 
 .perf_link {
+    letter-spacing: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    position: relative;
+}
+
+.perf_link2{
     letter-spacing: normal;
     font-size: 24px;
     line-height: 28px;

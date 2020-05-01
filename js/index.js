@@ -66,7 +66,7 @@ const scene = new ScrollMagic.Scene({
     triggerHook: 0
 })
 .setTween(timeline2)
-.addIndicators()
+// .addIndicators()
 .addTo(controller)
 
 //section fade
@@ -76,14 +76,17 @@ const timeline3 = gsap.timeline({
 
 timeline3.from('.image_fast', {
     opacity: 0,
-    x: -200,
+    x: -150,
     duration: 1,
+    ease: 'power2.out'
 })
 
 timeline3.from('.perf_t1', {
     opacity: 0,
     y: '100%',
     duration: 1,
+    ease: 'power2.out'
+
 },
 '-=1')
 
@@ -91,6 +94,8 @@ timeline3.from('.perf_t2', {
     opacity: 0,
     y: '100%',
     duration: 1,
+    ease: 'power2.out'
+
 },
 '-=1')
 
@@ -98,6 +103,8 @@ timeline3.from('.perf_p', {
     opacity: 0,
     y: '100%',
     duration: 1,
+    ease: 'power2.out'
+
 },
 '-=1')
 
@@ -105,12 +112,67 @@ timeline3.from('.move', {
     opacity: 0,
     y: '100%',
     duration: 1,
-})
+    ease: 'power2.out'
+
+},
+'-=0.7')
 
 const scene2 = new ScrollMagic.Scene({
     triggerElement: '.perf_wrapper',
-    duration: 350,
+    duration: 400,
+    triggerHook: 0.6,
 })
 .setTween(timeline3)
-.addIndicators()
+// .addIndicators()
+.addTo(controller)
+
+const timeline4 = gsap.timeline({
+    paused: true
+})
+
+timeline4.from('.icons', {
+    opacity: 0,
+    y: '100%',
+    duration: 1,
+    ease: 'power2.out'
+})
+
+timeline4.from('.tool_t1', {
+    opacity: 0,
+    y: '100%',
+    duration: 1,
+    ease: 'power2.out'
+},
+'-=1')
+
+timeline4.from('.tool_t2', {
+    opacity: 0,
+    y: '100%',
+    duration: 1,
+    ease: 'power2.out'
+},
+'-=1')
+
+timeline4.from('.tool_p', {
+    opacity: 0,
+    y: '100%',
+    duration: 1,
+    ease: 'power2.out'
+},
+'-=1')
+
+timeline4.from('.move2', {
+    opacity: 0,
+    y: '100%',
+    duration: 1,
+    ease: 'power2.out'
+},
+'-=1')
+
+const scene3 = new ScrollMagic.Scene({
+    triggerElement: '.perf_link',
+    duration: 400,
+})
+.setTween(timeline4)
+// .addIndicators()
 .addTo(controller)
