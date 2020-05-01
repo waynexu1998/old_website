@@ -15,33 +15,38 @@ if(hamburger) {
 }
 
 // hero section animtion
-const timeline = gsap.timeline()
+function anim_start() {
+    timeline.play()
+}
+const timeline = gsap.timeline({
+    paused: true
+})
 
 timeline.from('.giant_title', {
     y: '100%',
-    duration: 1.5,
+    duration: 2,
     opacity: 0,
     ease: 'expo.out'
 })
 
 timeline.from('.giant_title2', {
     opacity: 0,
-    duration: 0.5,
+    duration: 1,
 },
-'-=0.5')
+'-=1')
 
 timeline.from('.navigation', {
     opacity: 0,
-    duration:0.5,
+    duration: 2,
 },
-'-=0.5')
+'-=1')
 
 timeline.from('.editor', {
-    duration: 1,
+    duration: 2,
     opacity: 0,
     ease: 'expo.out'
 },
-'-=1')
+'-=2')
 
 // hero fade out
 const timeline2 = gsap.timeline({
@@ -71,13 +76,40 @@ const timeline3 = gsap.timeline({
 
 timeline3.from('.image_fast', {
     opacity: 0,
-    x: -500,
-    ease: 'expo.out'
+    x: -200,
+    duration: 1,
+})
+
+timeline3.from('.perf_t1', {
+    opacity: 0,
+    y: '100%',
+    duration: 1,
+},
+'-=1')
+
+timeline3.from('.perf_t2', {
+    opacity: 0,
+    y: '100%',
+    duration: 1,
+},
+'-=1')
+
+timeline3.from('.perf_p', {
+    opacity: 0,
+    y: '100%',
+    duration: 1,
+},
+'-=1')
+
+timeline3.from('.move', {
+    opacity: 0,
+    y: '100%',
+    duration: 1,
 })
 
 const scene2 = new ScrollMagic.Scene({
-    triggerElement: '.ME',
-    duration: 300,
+    triggerElement: '.perf_wrapper',
+    duration: 350,
 })
 .setTween(timeline3)
 .addIndicators()

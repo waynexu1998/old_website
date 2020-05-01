@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://use.typekit.net/gnr8vxg.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
+    <body onload="anim_start()">
         <!-- navigation -->
         <section class="navigation">
             <nav class="navBar1">
@@ -53,8 +53,15 @@
                     <div class="perf_t2_wrapper">
                         <h1 class="perf_t2">Zero design compromise</h1>
                     </div>
-                    <p class="perf_p">Great design is the essential piece of a good website/app. I strive to create apps and websites that bring the same design to all devices across the board. My job is to create the max functionality with the most up-to-date design catered for your needs. </p>
-                    <a class="perf_link" href="">Learn about my projects →</a>
+                    <div style="overflow: hidden;">
+                        <p class="perf_p">Great design is the essential piece of a good website/app. I strive to create apps and websites that bring the same design to all devices across the board. My job is to create the max functionality with the most up-to-date design catered for your needs. </p>
+                    </div>
+                    <div style="overflow: hidden;">
+                        <div class="move">
+                            <a class="perf_link" href="">Learn about my projects →</a>
+                        </div>
+                    </div>
+                    
                 </div>
 
                 <div class="perf_image">
@@ -64,11 +71,21 @@
 
             <div class="tool_wrapper">
                 <div class="tool_grid">
-                    <img class="icons" src="./icons/github.png" alt="github">
-                    <img class="icons" src="./icons/html5.png" alt="html5">
-                    <img class="icons" src="./icons/javascript.png" alt="js">
-                    <img class="icons" src="./icons/react.png" alt="react">
-                    <img class="icons" src="./icons/xcode.png" alt="xcode">
+                    <div class="icon_wrapper">
+                        <img class="icons" src="./icons/github.png" alt="github">
+                    </div>
+                    <div class="icon_wrapper">
+                        <img class="icons" src="./icons/html5.png" alt="html5">
+                    </div>
+                    <div class="icon_wrapper">
+                        <img class="icons" src="./icons/javascript.png" alt="js">
+                    </div>
+                    <div class="icon_wrapper">
+                        <img class="icons" src="./icons/react.png" alt="react">
+                    </div>
+                    <div class="icon_wrapper">
+                        <img class="icons" src="./icons/xcode.png" alt="xcode">
+                    </div>
                 </div>
 
                 <div class="tool">
