@@ -36,7 +36,7 @@ timeline.from('.giant_title2', {
 '-=1')
 
 timeline.from('.editor', {
-    duration: 1,
+    duration: 0.8,
     opacity: 0,
     ease: 'power1.in'
 },
@@ -113,7 +113,7 @@ timeline3.from('.move', {
 
 const scene2 = new ScrollMagic.Scene({
     triggerElement: '.perf_wrapper',
-    duration: 400,
+    duration: 500,
     triggerHook: 0.6,
 })
 .setTween(timeline3)
@@ -165,7 +165,7 @@ timeline4.from('.move2', {
 
 const scene3 = new ScrollMagic.Scene({
     triggerElement: '.perf_link',
-    duration: 400,
+    duration: 500,
 })
 .setTween(timeline4)
 // .addIndicators()
