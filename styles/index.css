@@ -262,6 +262,10 @@ h3 {
         font-size: 20px;
         line-height: 24px;
     }
+    .perf_link2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
     .perf_image {
         width:  60%;
         margin: 0 auto;
@@ -324,6 +328,10 @@ h3 {
         line-height: 20px;
     }
     .perf_link {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .perf_link2 {
         font-size: 18px;
         line-height: 22px;
     }
