@@ -61,5 +61,24 @@ const scene = new ScrollMagic.Scene({
     triggerHook: 0
 })
 .setTween(timeline2)
-// .addIndicators()
+.addIndicators()
+.addTo(controller)
+
+//section fade
+const timeline3 = gsap.timeline({
+    paused: true
+})
+
+timeline3.from('.image_fast', {
+    opacity: 0,
+    x: -500,
+    ease: 'expo.out'
+})
+
+const scene2 = new ScrollMagic.Scene({
+    triggerElement: '.ME',
+    duration: 300,
+})
+.setTween(timeline3)
+.addIndicators()
 .addTo(controller)
