@@ -35,18 +35,12 @@ timeline.from('.giant_title2', {
 },
 '-=1')
 
-timeline.from('.navigation', {
+timeline.from('.editor', {
+    duration: 1,
     opacity: 0,
-    duration: 2,
+    ease: 'power1.in'
 },
 '-=1')
-
-timeline.from('.editor', {
-    duration: 2,
-    opacity: 0,
-    ease: 'expo.out'
-},
-'-=2')
 
 // hero fade out
 const timeline2 = gsap.timeline({
