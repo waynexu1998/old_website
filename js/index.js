@@ -134,6 +134,14 @@ timeline4.from('.icons', {
     ease: 'power2.out'
 })
 
+timeline4.from('.tool_grid', {
+    opacity: 0,
+    x: '100%',
+    duration: 1,
+    ease: 'power2.out'
+},
+'-=1')
+
 timeline4.from('.tool_t1', {
     opacity: 0,
     y: '200%',
