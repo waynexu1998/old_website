@@ -1,5 +1,7 @@
 const hamburger = document.querySelector('.navDash')
 let menuOpen = false
+const body = document.querySelector('body')
+body.style.opacity = 0
 
 
 if(hamburger) {
@@ -16,6 +18,7 @@ if(hamburger) {
 
 // hero section animtion
 function anim_start() {
+    body.style.opacity = 1
     timeline.play()
 }
 const timeline = gsap.timeline({
@@ -70,14 +73,14 @@ const timeline3 = gsap.timeline({
 
 timeline3.from('.image_fast', {
     opacity: 0,
-    x: -150,
+    x: -200,
     duration: 1,
     ease: 'power2.out'
 })
 
 timeline3.from('.perf_t1', {
     opacity: 0,
-    y: '100%',
+    y: '200%',
     duration: 1,
     ease: 'power2.out'
 
@@ -86,7 +89,7 @@ timeline3.from('.perf_t1', {
 
 timeline3.from('.perf_t2', {
     opacity: 0,
-    y: '100%',
+    y: '200%',
     duration: 1,
     ease: 'power2.out'
 
@@ -95,7 +98,7 @@ timeline3.from('.perf_t2', {
 
 timeline3.from('.perf_p', {
     opacity: 0,
-    y: '100%',
+    y: '200%',
     duration: 1,
     ease: 'power2.out'
 
@@ -104,7 +107,7 @@ timeline3.from('.perf_p', {
 
 timeline3.from('.move', {
     opacity: 0,
-    y: '100%',
+    y: '200%',
     duration: 1,
     ease: 'power2.out'
 
@@ -113,11 +116,11 @@ timeline3.from('.move', {
 
 const scene2 = new ScrollMagic.Scene({
     triggerElement: '.perf_wrapper',
-    duration: 500,
+    duration: 600,
     triggerHook: 0.6,
 })
 .setTween(timeline3)
-// .addIndicators()
+.addIndicators()
 .addTo(controller)
 
 const timeline4 = gsap.timeline({
@@ -126,14 +129,14 @@ const timeline4 = gsap.timeline({
 
 timeline4.from('.icons', {
     opacity: 0,
-    y: '100%',
+    y: '200%',
     duration: 1,
     ease: 'power2.out'
 })
 
 timeline4.from('.tool_t1', {
     opacity: 0,
-    y: '100%',
+    y: '200%',
     duration: 1,
     ease: 'power2.out'
 },
@@ -141,7 +144,7 @@ timeline4.from('.tool_t1', {
 
 timeline4.from('.tool_t2', {
     opacity: 0,
-    y: '100%',
+    y: '200%',
     duration: 1,
     ease: 'power2.out'
 },
@@ -149,7 +152,7 @@ timeline4.from('.tool_t2', {
 
 timeline4.from('.tool_p', {
     opacity: 0,
-    y: '100%',
+    y: '200%',
     duration: 1,
     ease: 'power2.out'
 },
@@ -157,7 +160,7 @@ timeline4.from('.tool_p', {
 
 timeline4.from('.move2', {
     opacity: 0,
-    y: '100%',
+    y: '200%',
     duration: 1,
     ease: 'power2.out'
 },
@@ -165,8 +168,8 @@ timeline4.from('.move2', {
 
 const scene3 = new ScrollMagic.Scene({
     triggerElement: '.perf_link',
-    duration: 500,
+    duration: 600,
 })
 .setTween(timeline4)
-// .addIndicators()
+.addIndicators()
 .addTo(controller)
