@@ -1,7 +1,6 @@
 const hamburger = document.querySelector('.navDash')
 let menuOpen = false
 const body = document.querySelector('body')
-body.style.opacity = 0
 
 
 if(hamburger) {
@@ -18,7 +17,6 @@ if(hamburger) {
 
 // hero section animtion
 function anim_start() {
-    body.style.opacity = 1
     timeline.play()
 }
 const timeline = gsap.timeline({
@@ -134,9 +132,9 @@ timeline4.from('.icons', {
     ease: 'power2.out'
 })
 
-timeline4.from('.tool_grid', {
+timeline4.from('.icon_wrapper', {
     opacity: 0,
-    x: '100%',
+    x: 200,
     duration: 1,
     ease: 'power2.out'
 },
