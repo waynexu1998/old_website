@@ -120,7 +120,7 @@ const scene2 = new ScrollMagic.Scene({
     triggerHook: 0.6,
 })
 .setTween(timeline3)
-.addIndicators()
+// .addIndicators()
 .addTo(controller)
 
 const timeline4 = gsap.timeline({
@@ -171,5 +171,5 @@ const scene3 = new ScrollMagic.Scene({
     duration: 600,
 })
 .setTween(timeline4)
-.addIndicators()
+// .addIndicators()
 .addTo(controller)
