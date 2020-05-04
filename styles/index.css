@@ -99,7 +99,7 @@ h3 {
     font-size: 32px;
     text-align: center;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .HERO {
@@ -133,7 +133,7 @@ h3 {
 .ME {
     max-width: 1400px;
     margin: 100px auto;
-    margin-bottom: 500px;
+    margin-bottom: 250px;
 }
 
 .perf_wrapper {
@@ -190,7 +190,6 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 100px;
 }
 
 .tool {
@@ -227,6 +226,56 @@ h3 {
     font-size: 22px;
     line-height: 26px;
     max-width: 100%;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 100px 0;
+    font-size: 20px;
+    background-color: #ff6f61;
+    color: white;
+}
+
+.hire_button {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 18px 40px;
+    border: solid 3px white;
+    border-radius: 5px;
+    flex-grow: 0;
+    text-align: center;
+    max-width: 200px;
+    box-sizing: border-box;
+}
+
+footer p {
+    font-size: 45px;
+    margin: 0 0 30px 0;
+    display: block;
+}
+
+.footer_wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_group {
+    margin-top: 40px;
+    display: block;
+    clear: both;
+}
+
+.link_icons {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+#github_icon {
+    margin: 0;
 }
 
 @keyframes grain {
@@ -297,9 +346,11 @@ h3 {
     .perf h1, .tool h1 {
         font-size: 40px;
     }
-    .ME {
-        margin: 50px auto;
-        margin-bottom: 500px;
+    footer p {
+        font-size: 40px;
+    }
+    .footer_wrapper {
+        max-width: 60%;
     }
     
 }
@@ -314,6 +365,9 @@ h3 {
     .icons {
         width: 100px;
         height: 100px;
+    }
+    .footer_wrapper {
+        max-width: 70%;
     }
 }
 
@@ -330,7 +384,6 @@ h3 {
     .perf_wrapper, .tool_wrapper {
         margin-bottom: 0px;
     }
-
     .editor {
         width: 70%;
     }
@@ -355,7 +408,6 @@ h3 {
     .ME {
         margin: 20px auto;
         margin-bottom: 200px;
-
     }
     .tool_grid {
         width: 70%;
@@ -363,5 +415,16 @@ h3 {
     .icons {
         width: 60px;
         height: 60px;
+    }
+    footer p {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .footer_wrapper {
+        max-width: 80%;
+    }
+    .hire_button {
+        max-width: 170px;
+        font-size: 18px;
     }
 }
