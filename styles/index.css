@@ -99,7 +99,7 @@ h3 {
     font-size: 32px;
     text-align: center;
     color: black;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .HERO {
@@ -239,9 +239,9 @@ footer {
 .hire_button {
     color: white;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 600;
     padding: 18px 40px;
-    border: solid 3px white;
+    border: solid 2.5px white;
     border-radius: 5px;
     flex-grow: 0;
     text-align: center;
@@ -307,6 +307,9 @@ footer p {
     }
     .HERO {
         overflow: hidden;
+    }
+    .ME {
+        margin-bottom: 150px;
     }
     .perf_wrapper {
         flex-direction: column;
@@ -407,7 +410,7 @@ footer p {
     }
     .ME {
         margin: 20px auto;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }
     .tool_grid {
         width: 70%;
