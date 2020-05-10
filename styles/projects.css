@@ -145,6 +145,12 @@ h3 {
     h1 {
         font-size: 100px;
     }
+    .inner_title2 {
+        right: -485px;
+    }
+    .inner_title {
+        right: -485px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
