@@ -174,8 +174,9 @@ timeline4.from('.move2', {
 
 const scene3 = new ScrollMagic.Scene({
     triggerElement: '.perf_link',
-    duration: 600,
+    duration: 450,
+    triggerHook: 0.4,
 })
 .setTween(timeline4)
-// .addIndicators()
+.addIndicators()
 .addTo(controller)
