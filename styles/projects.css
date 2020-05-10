@@ -170,19 +170,19 @@ h3 {
     }
     .inner_title2 {
         position: absolute;
-        top: 95%;
+        top: 92%;
         transform: none;
         right: initial;
     }
     .inner_title {
         color: white;
         position: absolute;
-        top: 95%;
+        top: 92%;
         transform: none;
         right: initial;
     }
     .PJ1_image_wrapper {
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
     }
     .projects_wrapper {
