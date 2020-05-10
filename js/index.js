@@ -114,7 +114,7 @@ timeline3.from('.move', {
 
 const scene2 = new ScrollMagic.Scene({
     triggerElement: '.perf_wrapper',
-    duration: 600,
+    duration: 450,
     triggerHook: 0.6,
 })
 .setTween(timeline3)
