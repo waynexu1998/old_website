@@ -1,4 +1,10 @@
+function anim_start() {
+    timeline.play()
+    timeline2.play()
+}
+
 const timeline = gsap.timeline({
+    paused: true
 })
 
 timeline.from('.move_title',{
@@ -9,6 +15,7 @@ timeline.from('.move_title',{
 
 
 const timeline2 = gsap.timeline({
+    paused: true
 })
 
 timeline.from('.move_title2',{
