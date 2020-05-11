@@ -3,7 +3,9 @@ const timeline = gsap.timeline({
 })
 
 timeline.from('.move_title',{
-    x: 30
+    x: 30,
+    ease: 'power4.in'
+
 })
 
 const controller = new ScrollMagic.Controller()
@@ -22,7 +24,8 @@ const timeline2 = gsap.timeline({
 })
 
 timeline.from('.move_title2',{
-    x: -30
+    x: -30,
+    ease: 'power4.in'
 })
 
 const scene2 = new ScrollMagic.Scene({
