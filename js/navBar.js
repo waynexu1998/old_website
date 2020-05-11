@@ -13,24 +13,27 @@ if(hamburger) {
             hamburger2.classList.add('open')
             menuOpen = true
             overlay.style.display = 'block'
-            overlay.style.opacity = '1'
-        } else {
-            hamburger.classList.remove('open')
-            menuOpen = false
+            setTimeout(delayed_fadein, 100)
         }
     })
 }
 
 if(hamburger2) {
     hamburger2.addEventListener('click', () => {
-        if(!menuOpen) {
-            menuOpen = true
-        } else {
+        if(menuOpen) {
             hamburger2.classList.remove('open')
             hamburger.classList.remove('open')
-            overlay.style.display = 'none'
             overlay.style.opacity = '0'
             menuOpen = false
+            setTimeout(delayed_fadeout, 600)
         }
     })
+}
+
+function delayed_fadein() {
+    overlay.style.opacity = '1'
+}
+
+function delayed_fadeout() {
+    overlay.style.display = 'none'
 }
