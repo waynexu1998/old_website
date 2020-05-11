@@ -1,3 +1,5 @@
+window.addEventListener("load", anim_start())
+
 function anim_start() {
     timeline.play()
     timeline2.play()
