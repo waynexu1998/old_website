@@ -1,20 +1,3 @@
-const hamburger = document.querySelector('.navDash')
-let menuOpen = false
-const body = document.querySelector('body')
-
-
-if(hamburger) {
-    hamburger.addEventListener('click', () => {
-        if(!menuOpen) {
-            hamburger.classList.add('open')
-            menuOpen = true
-        } else {
-            hamburger.classList.remove('open')
-            menuOpen = false
-        }
-    })
-}
-
 // hero section animtion
 function anim_start() {
     timeline.play()
@@ -72,6 +55,7 @@ const timeline3 = gsap.timeline({
 timeline3.from('.image_fast', {
     opacity: 0,
     x: -200,
+    y: 200,
     duration: 1,
     ease: 'power2.out'
 })
