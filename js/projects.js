@@ -23,4 +23,4 @@ timeline.from('.move_title2',{
     ease: 'power4.out'
 })
 
-window.addEventListener("load", anim_start())
+window.addEventListener("load", setTimeout(anim_start, 500))
