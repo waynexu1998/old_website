@@ -1,5 +1,3 @@
-window.addEventListener("load", anim_start())
-
 function anim_start() {
     timeline.play()
     timeline2.play()
@@ -24,3 +22,5 @@ timeline.from('.move_title2',{
     x: -200,
     ease: 'power4.out'
 })
+
+window.addEventListener("load", anim_start())
