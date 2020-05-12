@@ -88,6 +88,7 @@ h3 {
 .PJ1 {
     display: flex;
     margin-bottom: 100px;
+    perspective: 1000px;
 }
 
 .PJ1_image_wrapper {
@@ -95,6 +96,7 @@ h3 {
     width: 50%;
     height: 50%;
     position: relative;
+    transition: 0.5s;
 }
 
 .PJ1_title_wrapper {
@@ -140,6 +142,7 @@ h3 {
 .PJ2 {
     display: flex;
     justify-content: end;
+    perspective: 1000px;
 }
 
 .PJ2_image_wrapper {
@@ -150,6 +153,7 @@ h3 {
     width: 50%;
     height: 50%;
     position: relative;
+    transition: 0.5s;
 }
 
 .PJ2_title_wrapper {
