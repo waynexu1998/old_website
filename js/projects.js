@@ -45,8 +45,7 @@ timeline4.to('.move_title2',{
 
 // function timeout
 function load_timeout() {
-    window.requestAnimationFrame(setTimeout(anim_start, 300)
-    )
+    setTimeout(anim_start, 300)
 }
 
 window.addEventListener("load", load_timeout)
