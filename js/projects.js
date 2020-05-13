@@ -43,8 +43,13 @@ timeline4.to('.move_title2',{
     x: -150,
 })
 
+// function timeout
+function load_timeout() {
+    window.requestAnimationFrame(setTimeout(anim_start, 300)
+    )
+}
 
-window.addEventListener("load", setTimeout(anim_start, 300))
+window.addEventListener("load", load_timeout)
 
 function PJ1_hover() {
     PJ1_image_wrapper.style.transform = "rotateY(30deg)"
