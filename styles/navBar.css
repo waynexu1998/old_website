@@ -33,11 +33,12 @@
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 .overlay_links li {
-    margin: 0 auto;
+    text-align: right;
     list-style-type: none;
 }
 
