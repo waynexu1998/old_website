@@ -6,6 +6,14 @@ const timeline = gsap.timeline({
     paused: true
 })
 
+$(window).on("load",function(){
+    setTimeout(function() {
+        $(".load_page").fadeOut("slow");
+        anim_start()
+    }, 1500)
+});
+
+
 timeline.from('.giant_title', {
     y: '100%',
     duration: 2,

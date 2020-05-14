@@ -7,6 +7,13 @@ function anim_start() {
     timeline2.play()
 }
 
+$(window).on("load",function(){
+    setTimeout(function() {
+        $(".load_page").fadeOut("slow");
+        load_timeout()
+    },1500)
+ });
+
 const timeline = gsap.timeline({
     paused: true
 })
@@ -47,8 +54,6 @@ timeline4.to('.move_title2',{
 function load_timeout() {
     setTimeout(anim_start, 300)
 }
-
-window.addEventListener("load", load_timeout)
 
 function PJ1_hover() {
     PJ1_image_wrapper.style.transform = "rotateY(30deg)"

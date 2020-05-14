@@ -28,6 +28,10 @@
     font-weight: 600;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .load_page {
     background-color: #ffffff;
     width: 100%;
@@ -48,7 +52,7 @@ body {
     background-color: #ffffff;
     margin: 0 0 0 0;
     -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 body:after {
