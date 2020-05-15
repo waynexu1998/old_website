@@ -70,6 +70,7 @@ h1 {
     line-height: 1em;
     letter-spacing: -1px;
     color: #ff6f61;
+    text-align: right;
 }
 
 h3 {
@@ -79,6 +80,15 @@ h3 {
 .main {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 1000px;
+}
+
+.HERO_wrapper {
+    border-radius: 10px;
+}
+
+.HERO_title {
 }
 
 @keyframes grain {
