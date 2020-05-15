@@ -88,8 +88,6 @@ h3 {
     border-radius: 10px;
 }
 
-.HERO_title {
-}
 
 @keyframes grain {
     0%, 100% {transform: translate(0,0);}
