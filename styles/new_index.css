@@ -76,6 +76,11 @@ h3 {
     font-weight: 300;
 }
 
+.main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 @keyframes grain {
     0%, 100% {transform: translate(0,0);}
     10% {transform: translate(-5%,-10%);}
