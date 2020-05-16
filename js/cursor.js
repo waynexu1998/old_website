@@ -2,12 +2,14 @@
 let clientX = -100;
 let clientY = -100;
 const innerCursor = document.querySelector(".cursor");
+const cursor = document.querySelector(".inner_cursor");
+
 
 const initCursor = () => {
   // add listener to track the current mouse position
   document.addEventListener("mousemove", e => {
-    clientX = e.clientX-10;
-    clientY = e.clientY-10;
+    clientX = e.clientX-innerCursor.offsetWidth/2;
+    clientY = e.clientY-innerCursor.offsetHeight/2;
   });
   
   // transform the innerCursor to the current mouse position
@@ -27,3 +29,11 @@ const initCursor = () => {
 };
 
 initCursor();
+
+function hover_link() {
+  cursor.classList.add('hover_link')
+}
+
+function leave_link() {
+  cursor.classList.remove('hover_link')
+}

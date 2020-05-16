@@ -11,7 +11,7 @@ $(window).on("load",function(){
     setTimeout(function() {
         $(".load_page").fadeOut("slow");
         load_timeout()
-    },1500)
+    },1000)
  });
 
 const timeline = gsap.timeline({
@@ -50,6 +50,22 @@ timeline4.to('.move_title2',{
     x: -150,
 })
 
+function play3() {
+    timeline3.play()
+}
+
+function rev3() {
+    timeline3.reverse()
+}
+
+function play4() {
+    timeline4.play()
+}
+
+function rev4() {
+    timeline4.reverse()
+}
+
 // function timeout
 function load_timeout() {
     setTimeout(anim_start, 300)
@@ -57,20 +73,20 @@ function load_timeout() {
 
 function PJ1_hover() {
     PJ1_image_wrapper.style.transform = "rotateY(30deg)"
-    timeline3.play()
+    requestAnimationFrame(play3)
 }
 
 function PJ2_hover() {
     PJ2_image_wrapper.style.transform = "rotateY(-30deg)"
-    timeline4.play()
+    requestAnimationFrame(play4)
 }
 
 function PJ1_hover_out() {
     PJ1_image_wrapper.style.transform = "initial"
-    timeline3.reverse()
+    requestAnimationFrame(rev3)
 }
 
 function PJ2_hover_out() {
     PJ2_image_wrapper.style.transform = "initial"
-    timeline4.reverse()
+    requestAnimationFrame(rev4)
 }

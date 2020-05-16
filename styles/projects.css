@@ -33,6 +33,10 @@ html, html {
     cursor: none;
 }
 
+a {
+    cursor: none;
+}
+
 .load_page {
     background-color: #ffffff;
     width: 100%;
@@ -92,7 +96,7 @@ h3 {
 
 .PJ1 {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     perspective: 1000px;
     cursor: none;
 }
