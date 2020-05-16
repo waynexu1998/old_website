@@ -28,8 +28,9 @@
     font-weight: 600;
 }
 
-html {
+html, html {
     overflow-x: hidden;
+    cursor: none;
 }
 
 .load_page {
@@ -93,6 +94,7 @@ h3 {
     display: flex;
     margin-bottom: 100px;
     perspective: 1000px;
+    cursor: none;
 }
 
 .PJ1_image_wrapper {
@@ -148,6 +150,7 @@ h3 {
     display: flex;
     justify-content: end;
     perspective: 1000px;
+    cursor: none;
 }
 
 .PJ2_image_wrapper {

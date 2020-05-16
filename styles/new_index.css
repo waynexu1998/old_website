@@ -28,6 +28,11 @@
     font-weight: 600;
 }
 
+html, html {
+    overflow-x: hidden;
+    cursor: none;
+}
+
 .load_page {
     background-color: #ffffff;
     width: 100%;
