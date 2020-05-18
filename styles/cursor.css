@@ -25,3 +25,10 @@
     background-color: black;
     opacity: 0.5;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    .cursor {
+        display: none;
+    }
+}
