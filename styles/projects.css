@@ -184,7 +184,7 @@ h3 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: -380px;
+    left: -540px;
 }
 
 .PJ2_inner_title2 {
@@ -193,7 +193,7 @@ h3 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: -380px;
+    left: -540px;
 }
 
 .PJ2_behind_wrapper {
@@ -232,10 +232,10 @@ h3 {
         right: -485px;
     }
     .PJ2_inner_title2 {
-        left: -350px;
+        left: -485px;
     }
     .PJ2_inner_title {
-        left: -350px;
+        left: -485px;
     }
 }
 
@@ -255,10 +255,10 @@ h3 {
         right: -450px;
     }
     .PJ2_inner_title2 {
-        left: -310px;
+        left: -450px;
     }
     .PJ2_inner_title {
-        left: -310px;
+        left: -450px;
     }
 }
 
