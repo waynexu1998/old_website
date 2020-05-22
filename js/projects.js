@@ -1,6 +1,10 @@
 const PJ1_image_wrapper = document.querySelector('.PJ1_image_wrapper')
 const PJ2_image_wrapper = document.querySelector('.PJ2_image_wrapper')
 const move_title = document.querySelector('.move_title')
+const anim_border_h = document.querySelector('.anim_border_h')
+const anim_border_v = document.querySelector('.anim_border_v')
+const anim_border_h2 = document.querySelector('.anim_border_h2')
+const anim_border_v2 = document.querySelector('.anim_border_v2')
 
 function anim_start() {
     timeline.play()
@@ -74,19 +78,27 @@ function load_timeout() {
 function PJ1_hover() {
     PJ1_image_wrapper.style.transform = "rotateY(30deg)"
     requestAnimationFrame(play3)
+    anim_border_h.style.width = "15px"
+    anim_border_v.style.height = "100px"
 }
 
 function PJ2_hover() {
     PJ2_image_wrapper.style.transform = "rotateY(-30deg)"
     requestAnimationFrame(play4)
+    anim_border_h2.style.width = "15px"
+    anim_border_v2.style.height = "100px"
 }
 
 function PJ1_hover_out() {
     PJ1_image_wrapper.style.transform = "initial"
     requestAnimationFrame(rev3)
+    anim_border_h.style.width = "100px"
+    anim_border_v.style.height = "15px"
 }
 
 function PJ2_hover_out() {
     PJ2_image_wrapper.style.transform = "initial"
     requestAnimationFrame(rev4)
+    anim_border_h2.style.width = "100px"
+    anim_border_v2.style.height = "15px"
 }
