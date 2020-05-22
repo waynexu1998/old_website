@@ -96,7 +96,7 @@ h3 {
 
 .PJ1 {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     perspective: 1000px;
     cursor: none;
 }
@@ -216,6 +216,7 @@ h3 {
     justify-content: end;
     perspective: 1000px;
     cursor: none;
+    margin-bottom: 150px;
 }
 
 .PJ2_image_wrapper {
@@ -245,7 +246,7 @@ h3 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: -540px;
+    left: -570px;
 }
 
 .PJ2_inner_title2 {
@@ -254,7 +255,7 @@ h3 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: -540px;
+    left: -560px;
 }
 
 .PJ2_behind_wrapper {
@@ -293,10 +294,10 @@ h3 {
         right: -485px;
     }
     .PJ2_inner_title2 {
-        left: -485px;
+        left: -520px;
     }
     .PJ2_inner_title {
-        left: -485px;
+        left: -520px;
     }
 }
 
@@ -307,19 +308,19 @@ h3 {
         height: 50px;
     }
     h1 {
-        font-size: 90px;
+        font-size: 80px;
     }
     .inner_title2 {
-        right: -450px;
+        right: -380px;
     }
     .inner_title {
-        right: -450px;
+        right: -380px;
     }
     .PJ2_inner_title2 {
-        left: -450px;
+        left: -430px;
     }
     .PJ2_inner_title {
-        left: -450px;
+        left: -430px;
     }
 }
 
