@@ -376,4 +376,16 @@ h3 {
     .corners_2 {
         display: none;
     }
+    .anim_border_h {
+        display: none;
+    }
+    .anim_border_v {
+        display: none;
+    }
+    .anim_border_h2 {
+        display: none;
+    }
+    .anim_border_v2 {
+        display: none;
+    }
 }
