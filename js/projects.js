@@ -18,6 +18,10 @@ $(window).on("load",function(){
     },1000)
  });
 
+ window.onresize = function(){
+    this.location.reload()
+};
+
 const timeline = gsap.timeline({
     paused: true
 })
