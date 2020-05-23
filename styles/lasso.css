@@ -1,0 +1,231 @@
+    @font-face {
+        font-family: "space";
+        src: url("../fonts/SpaceGrotesk-Light.woff2") format('woff2');
+        font-weight: 200;
+    }
+
+    @font-face {
+        font-family: "space";
+        src: url("../fonts/SpaceGrotesk-Regular.woff2") format('woff2');
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: "space";
+        src: url("../fonts/SpaceGrotesk-Medium.woff2") format('woff2');
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: "space";
+        src: url("../fonts/SpaceGrotesk-SemiBold.woff2") format('woff2');
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: "space";
+        src: url("../fonts/SpaceGrotesk-Bold.woff2") format('woff2');
+        font-weight: 600;
+    }
+
+    html, html {
+        overflow-x: hidden;
+        cursor: none;
+    }
+
+    a {
+        cursor: none;
+    }
+
+    .load_page {
+        background-color: #ffffff;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 10;
+        display: flex;
+    }
+
+    .load_img {
+        margin: auto auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    body {
+        font-family: 'space';
+        background-color: #ffffff;
+        margin: 0 0 0 0;
+        -webkit-font-smoothing: antialiased;
+        overflow: hidden;
+    }
+
+    body:after {
+        animation: grain 2s steps(6) infinite;
+        background-image: url("../static/grain.png");
+        content: "";
+        height: 300%;
+        left: -50%;
+        opacity: 0.25;
+        position: fixed;
+        top: -100%;
+        width:300%;
+        pointer-events: none;
+    }
+
+    h1 {    
+        margin: 0;
+        font-size: 110px;
+        line-height: 1em;
+        letter-spacing: -1px;
+        color: #ff6f61;
+    }
+
+    h3 {
+        font-weight: 300;
+    }
+
+    .main {
+        display: flex;
+        position: relative;
+        margin-bottom: 1000px;
+    }
+
+    .background {
+        background-color: #ff6f61;
+        width: 60%;
+        height: 100%;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .content {
+        max-width: 1400px;
+        text-align: left;
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    .row1 {
+        width: 100%;
+        position: relative;
+    }
+
+    .row1 h2{
+    font-size: 30px;
+    }
+
+    .anim_border_h {
+        position: absolute;
+        width: 100px;
+        height: 5px;
+        background-color: black;
+        top: 0px;
+        right: 0px;
+        position: absolute;
+        transition: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+    .anim_border_v {
+        position: absolute;
+        width: 5px;
+        height: 20px;
+        background-color: black;
+        top: 0px;
+        right: 0px;
+        position: absolute;
+        transition: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .anim_border_h2 {
+        position: absolute;
+        width: 100px;
+        height: 5px;
+        background-color: black;
+        bottom: 0px;
+        left: 0px;
+        position: absolute;
+        transition: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+    .anim_border_v2 {
+        position: absolute;
+        width: 5px;
+        height: 20px;
+        background-color: black;
+        bottom: 0px;
+        left: 0px;
+        position: absolute;
+        transition: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .row2 {
+        width: 100%;
+        margin: 100px 0 0 0;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .row2 h1 {
+        color: white;
+        font-size: 145px;
+    }
+
+    .iphone {
+        width: 350px;
+        transform: translateY(-10%);
+        /* right: 0;
+        top: 50%;
+        transform: translateY(-40%); */
+    }
+
+    .row3 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .react-text {
+        font-size: 50px;
+        line-height: 52px;
+        margin: 0 305px 0 0;
+        color: #000000;
+        float: right;
+    }
+
+    .corner {
+        width: 50px;
+        height: 50px;
+        transform: scaleY(-1);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .endbox {
+        width: 100%;
+        position: relative;
+    }
+
+    @keyframes grain {
+        0%, 100% {transform: translate(0,0);}
+        10% {transform: translate(-5%,-10%);}
+        30% {transform: translate(3%,-15%);}
+        50% {transform: translate(12%,9%);}
+        70% {transform: translate(9%,4%);}
+        90% {transform: translate(-1%,7%);}
+    }
+
+    @media only screen and (max-width: 1400px) {
+    }
+
+    @media only screen and (max-width: 1024px) {
+    }
+
+    @media only screen and (max-width: 900px) {
+    }
