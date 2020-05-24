@@ -5,6 +5,6 @@ $(window).on("load",function(){
     },1000)
  });
 
- window.onresize = function(){
-    this.location.reload()
-};
+//  window.onresize = function(){
+//     this.location.reload()
+// };
