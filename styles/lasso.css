@@ -185,9 +185,9 @@
 
     .iphone {
         width: 350px;
-        height: auto;
+        height: "";
         transform: translateY(-10%);
-        object-fit: contain;
+        align-self: center;
         /* right: 0;
         top: 50%;
         transform: translateY(-40%); */
