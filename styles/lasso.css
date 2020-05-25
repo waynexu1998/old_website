@@ -186,8 +186,8 @@
     .iphone {
         width: 350px;
         height: auto;
-        max-height: 100%;
         transform: translateY(-10%);
+        object-fit: contain;
         /* right: 0;
         top: 50%;
         transform: translateY(-40%); */
