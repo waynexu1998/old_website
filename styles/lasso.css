@@ -116,6 +116,13 @@
     font-size: 30px;
     }
 
+    .year {
+        position: absolute;
+        color: white;
+        top: 45%;
+        left: 430px;
+    }
+
     .anim_border_h {
         position: absolute;
         width: 100px;
@@ -254,7 +261,7 @@
         }
         .background {
             width: 100%;
-            height: 500px;
+            height: 480px;
         }
         .content {
             margin: 0 auto;
@@ -283,6 +290,13 @@
             margin-bottom: 55px;
             font-size: 40px;
             line-height: 42px;
+        }
+        .year {
+            position: initial;
+            color: white;
+            top: initial;
+            left: initial;
+            margin: 0;
         }
     }
 
