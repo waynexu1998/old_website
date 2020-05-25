@@ -185,6 +185,7 @@
 
     .iphone {
         width: 350px;
+        height: auto;
         transform: translateY(-10%);
         /* right: 0;
         top: 50%;
