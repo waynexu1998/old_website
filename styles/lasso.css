@@ -85,10 +85,15 @@
         font-weight: 300;
     }
 
+    .main {
+        margin-bottom: 1000px;
+        position: relative;
+    }
+
     .HERO_wrapper {
         display: flex;
         position: relative;
-        margin-bottom: 1000px;
+        margin-bottom: 150px;
     }
 
     .background {
@@ -222,6 +227,54 @@
         position: relative;
     }
 
+    .update_to {
+        max-width: 1400px;
+        width: 100%;
+        max-width: 1400px;
+        text-align: left;
+        width: 100%;
+        margin: 50px auto;
+        padding: 0 50px 0 50px;
+    }
+
+    .update {
+        color: black;
+        font-size: 70px;
+    }
+
+    .year2020_section {
+        position: relative;
+        height: 450px;
+        display: flex;
+    }
+
+    .year2020 {
+        color: white;
+        font-size: 500px;
+        text-align: right;
+        position: absolute;
+        right: -500px;
+        margin: 50px 0;
+    }
+
+    .front {
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        z-index: 5;
+    }
+    .back {
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        z-index: -10;
+    }
+
+    .back .year2020 {
+        color: #ff6f61;
+    }
+
     @keyframes grain {
         0%, 100% {transform: translate(0,0);}
         10% {transform: translate(-5%,-10%);}
@@ -247,11 +300,18 @@
         .iphone {
             width: 250px;
         }
+        .year2020 {
+            font-size: 450px;
+            right: -400px;
+        }
     }
 
     @media only screen and (max-width: 1100px) {
         .row2 h1 {
             font-size: 90px;
+        }
+        .year2020 {
+            font-size: 400px;
         }
     }
 
@@ -300,6 +360,10 @@
             left: initial;
             margin: 0;
         }
+
+        .front {
+            background-color: #ff6f61;
+        }
     }
 
     @media only screen and (max-width: 600px) {
@@ -317,5 +381,12 @@
         }
         .iphone {
             width: 100%;
+        }
+        .update {
+            font-size: 40px;
+        }
+        .year2020 {
+            font-size: 300px;
+            right: -550px;
         }
     }
