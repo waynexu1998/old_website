@@ -85,7 +85,7 @@
         font-weight: 300;
     }
 
-    .main {
+    .HERO_wrapper {
         display: flex;
         position: relative;
         margin-bottom: 1000px;
@@ -126,7 +126,7 @@
     .anim_border_h {
         position: absolute;
         width: 100px;
-        height: 5px;
+        height: 3px;
         background-color: black;
         top: 0px;
         right: 0px;
@@ -136,7 +136,7 @@
     }
     .anim_border_v {
         position: absolute;
-        width: 5px;
+        width: 3px;
         height: 20px;
         background-color: black;
         top: 0px;
@@ -149,7 +149,7 @@
     .anim_border_h2 {
         position: absolute;
         width: 100px;
-        height: 5px;
+        height: 3px;
         background-color: black;
         bottom: 0px;
         left: 0px;
@@ -159,7 +159,7 @@
     }
     .anim_border_v2 {
         position: absolute;
-        width: 5px;
+        width: 3px;
         height: 20px;
         background-color: black;
         bottom: 0px;
