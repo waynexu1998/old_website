@@ -119,6 +119,7 @@
 
     .row1 h2{
     font-size: 30px;
+    font-weight: 500;
     }
 
     .year {
@@ -211,6 +212,7 @@
         margin: 0 305px 0 0;
         color: #000000;
         float: right;
+        font-weight: 500;
     }
 
     .corner {
@@ -240,6 +242,7 @@
     .update {
         color: black;
         font-size: 70px;
+        font-weight: 500;
     }
 
     .year2020_section {
