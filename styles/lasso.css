@@ -279,7 +279,7 @@
         transform: translateY(-50%);
         color: white;
         -webkit-text-stroke: 1px white;
-        -webkit-text-fill-color: #ff6f61;
+        -webkit-text-fill-color: #ff6e6100;
     }
 
     @keyframes grain {
@@ -317,6 +317,9 @@
         .HERO_wrapper {
             margin-bottom: 50px;
         }
+        .year2020_hover_h2 {
+            font-size: 70px;
+        }
     }
 
     @media only screen and (max-width: 1100px) {
@@ -329,6 +332,9 @@
         }
         .year2020_section {
             height: 250px;
+        }
+        .year2020_hover_h2 {
+            font-size: 50px;
         }
     }
 
@@ -390,6 +396,9 @@
             font-size: 250px;
             right: -320px;
             margin: 50px 0;
+        }
+        .year2020_hover_h2 {
+            display: none;
         }
     }
 
