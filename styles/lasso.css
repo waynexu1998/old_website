@@ -282,6 +282,19 @@
         -webkit-text-fill-color: #ff6e6100;
     }
 
+    .lasso_img {
+        display: none;
+        opacity: 0;
+        position: fixed;
+        z-index: 6;
+        width: 500px;
+        height: "";
+        left: 0;
+        top: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease-in-out;
+    }
+
     @keyframes grain {
         0%, 100% {transform: translate(0,0);}
         10% {transform: translate(-5%,-10%);}
