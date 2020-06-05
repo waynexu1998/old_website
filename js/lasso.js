@@ -42,14 +42,14 @@ const initImage = () => {
     lasso_img.style.display = 'block'
     setTimeout(function(){
       lasso_img.style.opacity = '1'
-    }, 100)
+    }, 50)
   }
 
   const leavehover = () => {
     lasso_img.style.opacity = '0'
     setTimeout(function(){
       lasso_img.style.display = 'none'
-    }, 300)
+    }, 50)
   }
 
   const hover2020 = () => {
@@ -57,5 +57,5 @@ const initImage = () => {
     lasso_img.style.display = 'block'
     setTimeout(function(){
       lasso_img.style.opacity = '1'
-    }, 100)
+    }, 50)
   }
