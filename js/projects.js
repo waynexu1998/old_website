@@ -22,6 +22,14 @@ $(window).on("load",function(){
 //     this.location.reload()
 // };
 
+var width = $(window).width();
+$(window).on('resize', function() {
+  if ($(this).width() !== width) {
+    width = $(this).width();
+    this.location.reload()
+  }
+});
+
 const timeline = gsap.timeline({
     paused: true
 })
