@@ -88,14 +88,14 @@ function load_timeout() {
 }
 
 function PJ1_hover() {
-    PJ1_image_wrapper.style.transform = "rotateY(30deg)"
+    PJ1_image_wrapper.style.transform = "rotateY(20deg)"
     requestAnimationFrame(play3)
     anim_border_h.style.width = "15px"
     anim_border_v.style.height = "100px"
 }
 
 function PJ2_hover() {
-    PJ2_image_wrapper.style.transform = "rotateY(-30deg)"
+    PJ2_image_wrapper.style.transform = "rotateY(-20deg)"
     requestAnimationFrame(play4)
     anim_border_h2.style.width = "15px"
     anim_border_v2.style.height = "100px"
