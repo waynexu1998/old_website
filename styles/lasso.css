@@ -86,7 +86,6 @@
     }
 
     .main {
-        margin-bottom: 1000px;
         position: relative;
     }
 
@@ -295,6 +294,44 @@
         transition: opacity 0.3s ease-in-out;
     }
 
+    .showcase {
+        max-width: 1400px;
+        margin: 100px auto;
+    }
+
+    .UI_images {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scrollbar-width: 0px;
+        scroll-snap-type: x proximity;
+        white-space: nowrap;
+    }
+
+    .UI_images::-webkit-scrollbar {
+        display: none;
+    }
+
+    .UI_image_wrapper {
+        width: 400px;
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+    
+    .UI_image {
+        width: 100%;
+        height: "";
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .UI_image_text {
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 500;
+    }
+
     @keyframes grain {
         0%, 100% {transform: translate(0,0);}
         10% {transform: translate(-5%,-10%);}
@@ -445,5 +482,11 @@
         }
         .lasso_img {
             width: 200px;
+        }
+        .UI_image_wrapper {
+            width: 300px;
+        }
+        .showcase {
+            margin: 50px auto;
         }
     }
