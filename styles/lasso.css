@@ -315,7 +315,7 @@
     }
 
     .UI_image_wrapper {
-        width: 400px;
+        width: 450px;
         display: inline-block;
         flex: 0 0 auto;
     }
@@ -388,6 +388,9 @@
         }
         .year2020_hover_h2 {
             font-size: 50px;
+        }
+        .UI_image_wrapper {
+            width: 400px;
         }
     }
 
@@ -484,7 +487,7 @@
             width: 200px;
         }
         .UI_image_wrapper {
-            width: 300px;
+            width: 250px;
         }
         .showcase {
             margin: 50px auto;
