@@ -297,6 +297,7 @@
     .showcase {
         max-width: 1400px;
         margin: 100px auto;
+        position: relative;
     }
 
     .UI_images {
@@ -330,6 +331,48 @@
         margin: 0 auto;
         text-align: center;
         font-weight: 500;
+    }
+
+    .right_arrow {
+        position: absolute;
+        right: 50px;
+        top: -50px;
+        font-weight: 400;
+        color: black;
+        font-size: 50px;
+    }
+
+    .description_wrapper {
+        margin: 100px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .text_description {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about_project {
+        writing-mode: vertical-rl;
+        transform: rotateZ(180deg);
+        color: #000000;
+        font-size: 200px;
+    }
+
+    .about_project2 {
+        writing-mode: vertical-rl;
+        transform: rotateZ(180deg);
+        color: #ff6f61;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .description {
+        max-width: 1000px;
+        font-size: 20px;
+        line-height: 24px;
     }
 
     @keyframes grain {
