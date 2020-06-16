@@ -298,6 +298,7 @@
         max-width: 1400px;
         margin: 100px auto;
         position: relative;
+        padding: 0 50px;
     }
 
     .UI_images {
@@ -358,7 +359,8 @@
         writing-mode: vertical-rl;
         transform: rotateZ(180deg);
         color: #000000;
-        font-size: 200px;
+        font-size: 150px;
+        text-align: center;
     }
 
     .about_project2 {
@@ -367,12 +369,32 @@
         color: #ff6f61;
         font-size: 30px;
         margin: 0;
+        text-align: center;
     }
 
     .description {
-        max-width: 1000px;
-        font-size: 20px;
-        line-height: 24px;
+        max-width: 50%;
+        font-size: 22px;
+        line-height: 26px;
+        position:relative;
+    }
+    
+    .description_corner {
+        height: 50px;
+        width: 50px;
+        transform: scaleX(-1);
+    }
+
+    .description_corner2 {
+        height: 50px;
+        width: 50px;
+        transform: scaleY(-1);
+        float: right;
+    }
+
+    .outline {
+        -webkit-text-stroke: 1px black;
+        -webkit-text-fill-color: #ff6e6100;
     }
 
     @keyframes grain {
@@ -416,6 +438,9 @@
         .lasso_img {
             width: 300PX;
         }
+        .about_project {
+            font-size: 140px;
+        }
     }
 
     @media only screen and (max-width: 1100px) {
@@ -434,6 +459,40 @@
         }
         .UI_image_wrapper {
             width: 400px;
+        }
+        .showcase {
+            padding: 0;
+        }
+    
+        .about_project {
+            writing-mode: initial;
+            transform: initial;
+            color: #000000;
+            font-size: 50px;
+            text-align: initial;
+        }
+        .about_project2 {
+            writing-mode: initial;
+            transform: initial;
+            color: #ff6f61;
+            font-size: 20px;
+            margin-top: 20px;
+            text-align: initial;
+        }
+        .description {
+            max-width: 100%;
+            font-size: 20px;
+            line-height: 24px;
+        }
+        .description_wrapper {
+            flex-direction: column;
+            max-width: 80%;
+            margin: 100px auto;
+        }
+        .text_description {
+            display: flex;
+            flex-direction: column;
+            margin: 30px 0;
         }
     }
 
