@@ -59,3 +59,9 @@ const initImage = () => {
       lasso_img.style.opacity = '1'
     }, 50)
   }
+
+
+  //AOS init and config
+  AOS.init({
+    once: true,
+  })
