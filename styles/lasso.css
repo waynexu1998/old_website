@@ -597,4 +597,12 @@
         .description_wrapper {
             margin: 50px auto;
         }
+        .description_corner2 {
+            height: 35px;
+            width: 35px;
+        }
+        .description_corner {
+            height: 35px;
+            width: 35px;
+        }
     }
