@@ -605,4 +605,9 @@
             height: 35px;
             width: 35px;
         }
+        .description {
+            max-width: 100%;
+            font-size: 16px;
+            line-height: 20px;
+        }
     }
