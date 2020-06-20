@@ -291,7 +291,7 @@
         left: 0;
         top: 0;
         pointer-events: none;
-        transition: opacity 0.3s ease-in-out;
+        transition: all 0.3s ease;
     }
 
     .showcase {
@@ -360,7 +360,7 @@
         transform: rotateZ(180deg);
         color: #000000;
         font-size: 150px;
-        text-align: center;
+        text-align: left;
     }
 
     .about_project2 {
@@ -378,6 +378,10 @@
         font-size: 22px;
         line-height: 26px;
         position:relative;
+    }
+
+    .description p{
+       margin: 0 0 20px;
     }
     
     .description_corner {
