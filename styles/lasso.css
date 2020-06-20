@@ -370,6 +370,7 @@
         font-size: 30px;
         margin: 0;
         text-align: center;
+        display: none;
     }
 
     .description {
@@ -478,6 +479,7 @@
             font-size: 20px;
             margin-top: 20px;
             text-align: initial;
+            display: initial;
         }
         .description {
             max-width: 100%;
