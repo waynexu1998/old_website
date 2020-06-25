@@ -87,13 +87,13 @@ h2 {
     max-width: 1400px;
     margin: 50px auto;
     padding: 50px;
+    margin-bottom: 500px;
 }
 
 .HERO_title {
     font-size: 60px;
     max-width: 80%;
     line-height: 64px;
-    white-space: nowrap;
     margin-bottom: 50px;
 }
 
@@ -109,4 +109,36 @@ h2 {
     50% {transform: translate(12%,9%);}
     70% {transform: translate(9%,4%);}
     90% {transform: translate(-1%,7%);}
+}
+
+@media only screen and (max-width: 1400px) {
+    .HERO_title {
+        font-size: 50px;
+        line-height: 54px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .HERO_title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .HERO_title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .main {
+        margin: 50px auto;
+        padding: 0px;
+    }
+    .left {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .video {
+        border-radius: 0px;
+    }
 }
