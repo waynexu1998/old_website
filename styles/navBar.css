@@ -15,10 +15,14 @@
     position: fixed;
     z-index: 2;
     background-color: white;
-    display: none;
     transition: 0.6s;
-    opacity: 0;
     will-change: opacity;
+    opacity: 0;
+    transform: translateX(100vw);
+}
+
+.menu_open {
+    transform: translateX(0);
 }
 
 .navigation {
@@ -37,13 +41,19 @@
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin: 0 auto;
+    margin: 50px auto;
     max-width: 1400px;
 }
 
 .overlay_links li {
-    text-align: right;
     list-style-type: none;
+    margin: 0;
+    padding: 10px 30px;
+}
+
+.overlay_links li a{
+    font-weight: 700;
+    font-size: 50px;
 }
 
 .linkDiv {
@@ -99,17 +109,8 @@ a {
     transition: all .5s ease-in-out;
     margin: 15px 30px 15px 30px;
     display: none;
-}
-
-.navDash2 {
-    width: 40px;
-    height: 20px;
-    flex-direction: column;
-    cursor: pointer;
-    justify-content: space-between;
-    transition: all .5s ease-in-out;
-    margin: 15px 30px 15px 30px;
-    display: none;
+    position: relative;
+    z-index: 3;
 }
 
 .bar1 {
@@ -131,14 +132,6 @@ a {
 }
 
 .navDash.open .bar2 {
-    transform: rotate(-45deg) translate(0px, -13px);
-}
-
-.navDash2.open .bar1 {
-    transform: rotate(45deg) translate(0px, 13px);
-}
-
-.navDash2.open .bar2 {
     transform: rotate(-45deg) translate(0px, -13px);
 }
 

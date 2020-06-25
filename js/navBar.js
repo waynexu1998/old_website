@@ -10,30 +10,18 @@ if(hamburger) {
     hamburger.addEventListener('click', () => {
         if(!menuOpen) {
             hamburger.classList.add('open')
-            hamburger2.classList.add('open')
+            overlay.classList.add('menu_open')
             menuOpen = true
-            overlay.style.display = 'block'
-            setTimeout(delayed_fadein, 50)
-        }
-    })
-}
-
-if(hamburger2) {
-    hamburger2.addEventListener('click', () => {
-        if(menuOpen) {
-            hamburger2.classList.remove('open')
+            overlay.style.opacity = '1'
+        }else {
             hamburger.classList.remove('open')
-            overlay.style.opacity = '0'
+            overlay.classList.remove('menu_open')
             menuOpen = false
-            setTimeout(delayed_fadeout, 600)
+            overlay.style.opacity = '0'
         }
     })
 }
 
 function delayed_fadein() {
     overlay.style.opacity = '1'
-}
-
-function delayed_fadeout() {
-    overlay.style.display = 'none'
 }
