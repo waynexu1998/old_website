@@ -21,6 +21,10 @@
     will-change: opacity;
 }
 
+.navigation {
+    background-color: white;
+}
+
 .links {
     list-style-type: none;
     overflow: hidden;
