@@ -13,7 +13,7 @@ if(hamburger) {
             hamburger2.classList.add('open')
             menuOpen = true
             overlay.style.display = 'block'
-            setTimeout(delayed_fadein, 100)
+            setTimeout(delayed_fadein, 50)
         }
     })
 }
