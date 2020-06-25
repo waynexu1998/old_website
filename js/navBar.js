@@ -25,7 +25,7 @@ if(hamburger2) {
             hamburger.classList.remove('open')
             overlay.style.opacity = '0'
             menuOpen = false
-            setTimeout(delayed_fadeout, 1000)
+            setTimeout(delayed_fadeout, 600)
         }
     })
 }
