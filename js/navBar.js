@@ -21,7 +21,6 @@ if(hamburger) {
 if(hamburger2) {
     hamburger2.addEventListener('click', () => {
         if(menuOpen) {
-            hamburger2.classList.remove('open')
             hamburger.classList.remove('open')
             overlay.style.opacity = '0'
             menuOpen = false
