@@ -137,6 +137,7 @@ h2 {
     }
     .main {
         padding: 0px;
+        margin-top: 50px;
     }
     .left {
         max-width: 80%;
