@@ -89,14 +89,10 @@ h2 {
     padding: 50px;
 }
 
-.HERO {
-    margin: 100px 0;
-}
-
 .HERO_title {
-    font-size: 50px;
+    font-size: 60px;
     max-width: 80%;
-    line-height: 54px;
+    line-height: 64px;
     white-space: nowrap;
     margin-bottom: 50px;
 }
