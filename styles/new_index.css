@@ -151,6 +151,14 @@ h2 {
         font-size: 40px;
         line-height: 44px;
     }
+    .des_h1{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .des_list h2{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -168,5 +176,25 @@ h2 {
     }
     .video {
         border-radius: 0px;
+    }
+    .des_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .des_h1{
+        font-size: 20px;
+        line-height: 24px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .des_list {
+        width: 100%;
+    }
+    .des_list h2{
+        font-size: 21px;
+        margin-bottom: 10px;
     }
 }
