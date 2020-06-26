@@ -332,6 +332,7 @@
         margin: 0 auto;
         text-align: center;
         font-weight: 500;
+        color: rgb(180, 178, 178);
     }
 
     .right_arrow {
@@ -375,8 +376,8 @@
 
     .description {
         max-width: 50%;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 22px;
+        line-height: 26px;
         position:relative;
     }
 

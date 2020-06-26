@@ -87,7 +87,6 @@ h2 {
     max-width: 1400px;
     margin: 100px auto;
     padding: 50px;
-    margin-bottom: 500px;
 }
 
 .HERO_title {
@@ -100,6 +99,30 @@ h2 {
 .video {
     max-width: 100%;
     border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.des_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.des_h1{
+    font-size: 32px;
+    line-height: 36px;
+    width: 50%;
+}
+
+.des_list {
+    width: 50%;
+}
+
+.des_list h2{
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 35px;
 }
 
 @keyframes grain {
