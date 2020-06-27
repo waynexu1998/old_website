@@ -178,6 +178,7 @@ h2 {
     }
     .video {
         border-radius: 0px;
+        margin-bottom: 50px;
     }
     .des_wrapper {
         display: flex;
