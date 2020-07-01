@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="./styles/navBar.css">
     <link rel="stylesheet" href="https://use.typekit.net/gnr8vxg.css">
     <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/new_index.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/cursor.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <title>Index</title>
 </head>
 <body>
@@ -85,12 +86,22 @@
         </div>
         <video playsinline muted class="video" src="./video/rendered.mp4"></video>
         <div class="des_wrapper">
-            <h1 class="des_h1">I create human-centered websites<br>and apps for you.</h1>
+            <div class="overflow">
+                <h1 data-aos="fade-right" data-aos-duration="1000" class="des_h1">I create human-centered websites<br>and apps for you.</h1>
+            </div>
             <div class="des_list">
-                <h2>User Experience Design</h2>
-                <h2>Website Design & Develop</h2>
-                <h2>iOS App Development</h2>
-                <h2>Content Management System</h2>
+                <div class="overflow">
+                    <h2 data-aos="fade-up" data-aos-duration="1000">User Experience Design</h2>
+                </div>
+                <div class="overflow">
+                    <h2 data-aos="fade-up" data-aos-duration="1000">Website Design & Develop</h2>
+                </div>
+                <div class="overflow">
+                    <h2 data-aos="fade-up" data-aos-duration="1000">iOS App Development</h2>
+                </div>
+                <div class="overflow" >
+                    <h2 data-aos="fade-up" data-aos-duration="1000">Content Management System</h2>
+                </div>
             </div>
         </div>
     </section>
@@ -121,6 +132,8 @@
     <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous">
     </script>
     <!-- load page -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
     <script defer src="./js/navBar.js"></script>
     <script defer src="./js/cursor.js"></script>
     <script src="./js/index.js"></script>
