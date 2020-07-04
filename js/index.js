@@ -6,6 +6,7 @@ $(window).on("load",function(){
         $(".load_page").fadeOut("slow");
         video.play()
         timeline.play()
+        AOS.refresh()
     },1000)
 });
 
@@ -14,6 +15,7 @@ $(window).on("load",function(){
 AOS.init({
     once: true,
     easing: 'ease-out-quad',
+    startEvent: 'load',
 })
 
 const timeline = gsap.timeline({
