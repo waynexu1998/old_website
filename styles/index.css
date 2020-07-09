@@ -33,6 +33,10 @@ html, html {
     cursor: none;
 }
 
+a {
+    cursor: none;
+}
+
 .load_page {
     background-color: #ffffff;
     width: 100%;

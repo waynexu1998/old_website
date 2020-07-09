@@ -1,6 +1,7 @@
 $(window).on("load",function(){
     setTimeout(function() {
         $(".load_page").fadeOut("slow");
+        AOS.refresh()
     },1000)
  });
 
@@ -72,4 +73,5 @@ const initImage = () => {
   //AOS init and config
   AOS.init({
     once: true,
+    startEvent: 'load',
   })
