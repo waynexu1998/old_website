@@ -307,7 +307,7 @@
         justify-content: space-between;
         overflow-x: scroll;
         overflow-y: hidden;
-        scrollbar-width: 0px;
+        scrollbar-width: none;
         scroll-snap-type: x proximity;
         white-space: nowrap;
     }
