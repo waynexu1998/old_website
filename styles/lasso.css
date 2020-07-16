@@ -189,7 +189,7 @@
     }
 
     .iphone {
-        width: 350px;
+        width: 650px;
         height: "";
         transform: translateY(-10%);
         align-self: center;
@@ -450,7 +450,7 @@
             font-size: 25px;
         }
         .iphone {
-            width: 250px;
+            width: 500px;
         }
         .year2020 {
             font-size: 250px;
@@ -557,7 +557,6 @@
         .iphone {
             width: 60%;
             transform: initial;
-            margin: 0 auto;
         }
         .row1 h2{
             font-size: 20px;
@@ -609,7 +608,7 @@
             display: none   ;
         }
         .iphone {
-            width: 100%;
+            width: 150%;
         }
         .update {
             font-size: 40px;
