@@ -379,6 +379,7 @@
         font-size: 22px;
         line-height: 26px;
         position:relative;
+        letter-spacing: 1px;
     }
 
     .description p{
